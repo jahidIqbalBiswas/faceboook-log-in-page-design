@@ -1,0 +1,320 @@
+@media screen and (max-width:980px) {
+    .logo {
+        width: 100%;
+        margin: 20px;
+    }
+    .logo img {
+        width: 150px;
+        margin: auto;
+    }
+    .formDiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #email,
+    #pass {
+        width: 155px;
+        padding: 3px 3px;
+        border: 1px solid black;
+        margin-right: 30px;
+        outline: none;
+    }
+    .form {
+        margin-top: 20px;
+    }
+    .btt {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    * {
+        outline: none;
+    }
+    .bodyArea {
+        display: block;
+        justify-content: space-between;
+        margin: 30px 0px;
+    }
+    .leftArea {
+        width: 100%;
+    }
+    .rightArea {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .btt {
+        width: 150px;
+    }
+    .bodyArea {
+        margin: 0px;
+        padding: 0px;
+    }
+    footer {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .signUpPage {
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: translateX(600px);
+        z-index: 100;
+        width: 100%;
+        height: 100vh;
+        overflow:scroll;
+        background: white;
+        transition: .4s;
+        cursor: pointer;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .back {
+        width: 30px;
+        margin: 15px 0px 12px 15px;
+        outline: none;
+        display: block;
+    }
+    .openPage {
+        transform: translateX(0px);
+    }
+    .acntBtn {
+        display: block;
+    }
+    .acntBtn button {
+        display: block;
+        background: green;
+        color: white;
+        padding: 10px 5px;
+        width: 92%;
+        margin: 30px auto;
+        border-radius: 3px;
+        border: none;
+        font-weight: 300;
+        outline: none;
+        font-weight: bolder;
+		opacity:.8;
+    }
+	 .acntBtn button:hover{
+		 opacity:1;
+	 }
+		 
+    header {
+        font-size: 17px;
+        background: white;
+        padding: 0;
+        border-bottom: none;
+    }
+    .mbg {
+        width: 100%;
+        height: 300px;
+        background-image: url(../image/mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .logo {
+        display: none;
+    }
+    #email,
+    #pass {
+        width: 100%;
+        padding: 8px 5px;
+        border: none;
+        border-bottom: 1px solid gray;
+        margin-right: 30px;
+        outline: none;
+        background: transparent;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #email:focus {
+        border-bottom: 2px solid dodgerblue;
+    }
+    #pass:focus {
+        border-bottom: 2px solid dodgerblue;
+    }
+    .form {
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+    .form input[type="submit"] {
+        width: 100%;
+        padding: 10px 0px !important;
+        font-weight: bolder;
+        outline: none;
+        border-radius: 4px;
+        background: dodgerblue !important;
+        border: none !important;
+        color: rgb(210, 227, 245) !important;
+        margin-top: 15px;
+    }
+    .form input[type="submit"]:focus {
+        background: rgb(15, 109, 204) !important;
+    }
+    .email label,
+    .pass label,
+    .login label {
+        display: block;
+        color: gray;
+        margin-bottom: 0px !important;
+    }
+    .forget {
+        display: block;
+        text-decoration: none;
+        color: #a5bdde;
+        text-align: center;
+        margin: 10px 0px;
+        display: none;
+    }
+    .up {
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 5px 0px;
+    }
+    .up a {
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+    }
+    .up a:last-child {
+        color: rgb(16, 106, 196);
+    }
+    .up a:hover {
+        text-decoration: underline;
+    }
+    .mforget {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .mforget a {
+        color: rgb(17, 123, 230);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .mforget a:hover {
+        color: red;
+    }
+    .leftArea {
+        display: none;
+    }
+    .hr {
+        width: 90px;
+        margin-bottom: 3px;
+        height: 1px;
+        display: inline-block;
+        border: .5px solid rgb(164, 211, 250);
+    }
+    .span {
+        display: inline-block;
+        color: gray;
+    }
+    .or {
+        margin: 5px auto;
+        display: block;
+    }
+    .rightArea>h1,
+    h4 {
+        text-align: center;
+        color: green;
+    }
+    .rightArea>h4 {
+        margin-bottom: 25px;
+        color: black
+    }
+    .signUp {
+        width: 100%;
+    }
+    .lastText {
+        text-align: center
+    }
+}
+
+@media screen and (max-width:500px) {
+    .btt {
+        width: 100px;
+    }
+    .fa2 {
+        color: rgb(92, 90, 90);
+        margin-left: 8px;
+        position: relative;
+        left: -60px;
+        top: -32px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .btt {
+        width: 70px;
+    }
+    .mbg {
+        width: 100%;
+        height: 190px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:371px) {
+    .fa2 {
+        left: -100px;
+    }
+    .rightArea>h1,
+    h4 {
+        text-align: center;
+        color: green;
+    }
+    .rightArea>h1 {
+        font-size: 25px;
+    }
+    .rightArea>h4 {
+        color: rgb(6, 35, 65);
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .mbg {
+        width: 100%;
+        height: 170px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .or {
+        margin: 5px auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .or {
+        display: none;
+    }
+    .rightArea>h1,
+    h4 {
+        text-align: center;
+        color: green;
+    }
+    .rightArea>h1 {
+        font-size: 20px;
+    }
+    .rightArea>h4 {
+        color: rgb(6, 35, 65);
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .mbg {
+        width: 100%;
+        height: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
